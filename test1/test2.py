@@ -7,14 +7,18 @@
  6 (4)用户名错误、密码正确
  7 (5)用户名为空、密码正确（还有用户名和密码均为空时与此情况是一样的，这里就不单独测试了）
  8 '''
+
 import unittest
 from selenium import webdriver
 from time import sleep
-
+import unittest
+from BSTestRunner import BSTestRunner
+from  HTMLTestRunner import HTMLTestRunner
 import sys
 
 #reload(sys)
 from imp import reload
+
 
 #sys.setdefaultencoding('utf-8')
 #以上红色部门为设置断言必须导入的四个依赖包
